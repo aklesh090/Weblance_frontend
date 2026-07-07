@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const fetchWithTimeout = (url, options = {}) => {
         const controller = new AbortController();
-        const timeout = options.timeout || 15000;
+        const timeout = options.timeout || 60000;
         const timer = setTimeout(() => controller.abort(), timeout);
 
         return fetch(url, { ...options, signal: controller.signal })
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(payload),
-          timeout: 15000,
+          timeout: 60000,
         });
 
         const result = await response.json().catch(() => ({ error: 'Unexpected server response.' }));
