@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
       if (!formStatus) return;
 
-      formStatus.textContent = "Sending message...";
+      formStatus.textContent = "Sending message... (may take a moment on first use)";
       formStatus.style.color = "var(--text-secondary)";
 
       const formData = new FormData(contactForm);
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const fetchWithTimeout = (url, options = {}) => {
         const controller = new AbortController();
-        const timeout = options.timeout || 60000;
+        const timeout = options.timeout || 90000;
         const timer = setTimeout(() => controller.abort(), timeout);
 
         return fetch(url, { ...options, signal: controller.signal })
