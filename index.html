@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weblance | Premium Web Developer Portfolio</title>
+    <meta name="description" content="Weblance — I build modern, high-performance websites for brands and businesses that need a premium online presence, fast loading, and clear conversion paths." />
+    <meta name="keywords" content="web developer, portfolio, web design, frontend, full-stack, modern websites" />
+    <meta property="og:title" content="Weblance | Premium Web Developer Portfolio" />
+    <meta property="og:description" content="I build modern websites for brands and businesses that need a premium online presence." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#8b5cf6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+
+      <!-- ===== HEADER ===== -->
+      <header class="site-header" id="site-header">
+        <div class="brand">Weblance</div>
+        <nav class="site-nav" id="desktop-nav">
+          <a href="#about">About</a>
+          <a href="#work">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay" id="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="brand">Weblance</div>
+          <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <nav class="mobile-menu-links">
+          <a href="#about">About</a>
+          <a href="#work">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <div class="footer-social" style="margin-bottom: 0;">
+            <a class="social-link" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a class="social-link" href="https://linkedin.com/in/weblance" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a class="social-link" href="mailto:hello@weblance.dev" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero-section" data-reveal="scale">
+          <div class="hero-content">
+            <p class="eyebrow">Weblancin.in</p>
+            <h1>Ready to elevate your business</h1>
+            <p class="hero-copy">
+              I build modern websites for brands and businesses that need a
+              premium online presence, fast loading performance, and clear
+              conversion paths.
+            </p>
+            <a class="button button-primary" href="#contact">
+              Collaborate Now
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </section>
+
+        <!-- ===== STATS BAR ===== -->
+        <section class="stats-bar" aria-label="Key statistics">
+          <div class="stat-item" data-reveal data-reveal-delay="1">
+            <div class="stat-number" data-count="5">0+</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat-item" data-reveal data-reveal-delay="2">
+            <div class="stat-number" data-count="4">0+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item" data-reveal data-reveal-delay="3">
+            <div class="stat-number" data-count="10">0+</div>
+            <div class="stat-label">Technologies Used</div>
+          </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="section-panel about-panel" data-reveal>
+          <div class="section-heading">
+            <span>My Details</span>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy">
+              <h2>About <span>Me</span></h2>
+              <p>
+                I'm a web developer who crafts websites for businesses that
+                want to make a stronger digital impact. I specialize in
+                polished landing pages, website systems, and project launches
+                that feel modern and perform reliably.
+              </p>
+              <ul>
+                <li>Fast responsive HTML/CSS/JS experiences</li>
+                <li>UX-focused layouts with conversion-first sections</li>
+                <li>Video demos, client links, and feature-rich case studies</li>
+              </ul>
+
+              <!-- Services mini-grid -->
+              <div class="services-grid">
+                <div class="service-item" data-reveal data-reveal-delay="1">
+                  <span class="service-icon">⚡</span>
+                  <h4>Web Development</h4>
+                  <p>High-performance, responsive websites</p>
+                </div>
+                <div class="service-item" data-reveal data-reveal-delay="2">
+                  <span class="service-icon">🎨</span>
+                  <h4>UI / UX Design</h4>
+                  <p>Clean, modern visual systems</p>
+                </div>
+                <div class="service-item" data-reveal data-reveal-delay="3">
+                  <span class="service-icon">🚀</span>
+                  <h4>Performance</h4>
+                  <p>Speed-optimized, SEO-friendly builds</p>
+                </div>
+              </div>
+
+              <!-- Tech badges -->
+              <div class="tech-badges">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express.js</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Prisma</span>
+              </div>
+            </div>
+            <div class="about-card" data-reveal="right">
+              <div class="about-card-inner">
+                <p class="about-label">Web developer</p>
+                <h3>Weblance</h3>
+                <p>
+                  I help businesses launch websites that look premium,
+                  communicate clearly, and grow trust.
+                </p>
+                <div class="about-meta">
+                  <span>Services</span>
+                  <span>Design, Development, Strategy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section id="work" class="section-panel work-panel" data-reveal>
+          <div class="section-heading">
+            <span>Featured Work</span>
+            <h2>My <span>Projects</span></h2>
+          </div>
+
+          <!-- Project 1: Invexa Stack -->
+          <article class="project-card" data-reveal>
+            <div class="project-preview">
+                <img
+                  class="project-video"
+                  src="Invexa Stack thumbnail.png"
+                  alt="Invexa Stack project screenshot"
+                  loading="lazy"
+                />
+              </div>
+              <div class="preview-footer">
+                <p class="project-title">Invexa Stack</p>
+                <a class="project-link" href="https://invexastack.example.com" target="_blank" rel="noreferrer">
+                  Visit Site
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-specs">
+              <div class="project-specs-inner">
+                <h3>Project details</h3>
+                <p>
+                  Invexa Stack is an e-commerce inventory management website built
+                  for modern stock control and sales tracking.
+                </p>
+                <ul>
+                  <li>Inventory dashboard with product and stock analytics</li>
+                  <li>Order management for seamless e-commerce operations</li>
+                  <li>Admin tools for pricing, item status, and reporting</li>
+                </ul>
+                <button class="details-toggle" data-target="details-1">
+                  View more details
+                </button>
+                <div id="details-1" class="project-details">
+                  <p>
+                    This project combines a clean inventory workspace with
+                    ecommerce storefront features, making it easy for store
+                    owners to manage stock, orders, and customer updates.
+                  </p>
+                  <div class="details-grid">
+                    <div>
+                      <strong>Focus</strong>
+                      <p>Inventory management + e-commerce sales with business insights</p>
+                    </div>
+                    <div>
+                      <strong>Tech</strong>
+                      <p>Node.js, Express.js, MongoDB-Atlas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: BigSmile -->
+          <article class="project-card" data-reveal>
+            <div class="project-preview">
+              <div class="preview-panel">
+                <img
+                  class="project-video"
+                  src="BigSmile thumbnail.png"
+                  alt="BigSmile project screenshot"
+                  loading="lazy"
+                />
+              </div>
+              <div class="preview-footer">
+                <p class="project-title">BigSmile</p>
+                <a class="project-link" href="https://bigsmile.example.com" target="_blank" rel="noreferrer">
+                  Visit Site
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-specs">
+              <div class="project-specs-inner">
+                <h3>Project details</h3>
+                <p>
+                  BigSmile is a gaming zone website built to highlight event
+                  schedules, membership perks, and group play experiences.
+                </p>
+                <ul>
+                  <li>Dynamic event showcase and zone booking flow</li>
+                  <li>Membership plans and gamer community content</li>
+                  <li>Immersive visual styling for a gaming audience</li>
+                </ul>
+                <button class="details-toggle" data-target="details-2">
+                  View more details
+                </button>
+                <div id="details-2" class="project-details">
+                  <p>
+                    The BigSmile website delivers a high-energy gaming zone
+                    experience with easy event registration, zone maps, and social
+                    highlights for players.
+                  </p>
+                  <div class="details-grid">
+                    <div>
+                      <strong>Focus</strong>
+                      <p>Gaming zone events and membership</p>
+                    </div>
+                    <div>
+                      <strong>Tech</strong>
+                      <p>Next.js, React, PostgreSQL, Prisma, Razorpay, Web Push</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Coming Soon -->
+          <article class="project-card" data-reveal>
+            <div class="project-preview">
+              <div class="coming-soon-placeholder">
+                <span class="coming-soon-icon">🚀</span>
+                <span class="coming-soon-text">New Project Coming Soon</span>
+              </div>
+              <div class="preview-footer">
+                <p class="project-title">Upcoming Project</p>
+                <span class="project-link" style="opacity: 0.5; pointer-events: none;">
+                  Coming Soon
+                </span>
+              </div>
+            </div>
+
+            <div class="project-specs">
+              <div class="project-specs-inner">
+                <h3>Project details</h3>
+                <p>
+                  A new exciting project is currently in development. Stay tuned
+                  for another premium web experience crafted with modern technologies.
+                </p>
+                <ul>
+                  <li>Modern full-stack architecture</li>
+                  <li>Premium UI/UX design</li>
+                  <li>Performance-optimized delivery</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="section-panel contact-panel" data-reveal>
+          <div class="section-heading">
+            <span>Let's talk</span>
+            <h2>Get In <span>Touch</span></h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-copy">
+              <p>
+                Ready to build a high-performance website that boosts conversions
+                and represents your brand with clarity? Share your goals and
+                I'll respond with a tailored plan.
+              </p>
+
+              <div class="contact-info-item" data-reveal data-reveal-delay="1">
+                <div class="contact-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Email</div>
+                  <div class="contact-info-value">hello@weblance.dev</div>
+                </div>
+              </div>
+
+              <div class="contact-info-item" data-reveal data-reveal-delay="2">
+                <div class="contact-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">LinkedIn</div>
+                  <div class="contact-info-value">linkedin.com/in/weblance</div>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+              <label>
+                Name
+                <input name="name" type="text" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" placeholder="your-email@example.com" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </label>
+              <button class="button button-primary" type="submit">
+                Send Message
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4z"/><path d="m22 2-11 11"/></svg>
+              </button>
+              <div class="form-status" id="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- ===== FOOTER ===== -->
+      <footer class="site-footer" data-reveal>
+        <div class="footer-social">
+          <a class="social-link" href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/weblance" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a class="social-link" href="mailto:hello@weblance.dev" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+        <div class="footer-text">© 2026 <strong>Weblance</strong>. Built with intention & precision.</div>
+      </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
